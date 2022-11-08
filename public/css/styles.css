@@ -1,0 +1,60 @@
+* {
+    /*border: 1px solid red;
+    padding: 0px;
+    margin: 0px;*/
+}
+
+.btnEnviar, .btnRegresar {
+    background-color:deepskyblue;
+    width: 100px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.formEncuesta, .formResultado {
+    border: 2px solid black;
+    margin-left: 50px;
+    width: 400px;
+}
+
+.datosResultado {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.dato-nombre {
+    margin-left: 80px;
+}
+.dato-localizacion {
+    margin-left: 15px;
+}
+.dato-lenguaje {
+    margin-left: 70px;
+}
+.dato-comentario {
+    margin-left: 60px;
+}
+
+.form-input {
+    display: flex;
+    margin-left: 10px;
+}
+.input-nombre {
+    margin-left: 100px;
+    height: 20px;
+}
+.input-localizacion {
+    margin-left: 38px;
+    height: 25px;
+    width: 175px;
+}
+.input-lenguaje {
+    margin-left: 38px;
+    height: 25px;
+    width: 175px;
+}
+.input-comentario {
+    margin-left: 80px;
+    height: 50px;
+    width: 170px;
+}

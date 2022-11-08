@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Resultado Formulario Encuesta</title>
+</head>
+<body>
+    <center>
+    <form action="/resultado" method="post">
+        <div class="formResultado">
+                <h1 style="text-decoration:underline ;">Resultado Encuesta</h1>
+                <div class="datosResultado">
+                    <section>
+                        <p>Nombre :<strong class="dato-nombre"><%= resultado.name %></strong></p><br>
+                    </section>    
+                    <section>
+                        <p>Dojo Localizacion: <strong class="dato-localizacion"><%= resultado.location %></strong></p><br>
+                    </section>    
+                    <section>
+                        <p>Lenguaje :<strong class="dato-lenguaje"><%= resultado.language %></strong></p><br>
+                    </section>    
+                    <section>
+                        <p>Comentario :<strong class="dato-comentario"><%= resultado.comment %></strong></p><br>
+                    </section>
+                </div>
+                <button class="btnRegresar">regresar</button>
+        </div>
+    </form>
+    </center>
+</body>
+</html>

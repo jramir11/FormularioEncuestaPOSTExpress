@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Formulario de Encuesta</title>
+</head>
+<body>
+  <center>
+    <form action="/index" method="post">
+      <div class="formEncuesta">
+        <h1>formulario de encuesta</h1>
+
+        <section class="form-input">
+          <label>Nombre :</label><input type='text' name='name' id="name" class="input-nombre"><br><br>
+        </section>
+
+        <section class="form-input">
+            <label for="location">Dojo Localizacion:</label>
+            <select name="location" id="location" class="input-localizacion">
+                <option value="America">America</option>
+                <option value="Europa">Europa</option>
+                <option value="Asia">Asia</option>
+                <option value="Oceania">Oceania</option>
+            </select><br><br>
+        </section>
+
+
+        <section class="form-input">
+            <label for="language">Languaje Favorito:</label>
+            <select name="language" id="language" class="input-lenguaje">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Cobol">Cobol</option>
+                <option value="Python">Python</option>
+                <option value="Visual Basic">Visual Basic</option>
+            </select><br><br>
+        </section>
+
+
+        <section class="form-input">
+            <label for="comment">Comentario:</label><br>
+            <textarea name="comment" cols="20" rows="3" class="input-comentario"></textarea><br><br><br><br>
+        </section>
+    
+        <button class="btnEnviar">enviar</button>
+      </div>
+    </form>
+  </center>
+</body>
+</html>
